@@ -1,0 +1,22 @@
+
+#grid {
+  display: grid;
+  place-items: center;
+
+}
+
+
+
+#transport {
+  grid-row: 1/2;
+  display: inline-flex;
+  
+}
+
+#transport > :first-child { 
+  padding-right: 15px;
+}
+
+#transport > :last-child { 
+  padding-left: 15px;
+}
